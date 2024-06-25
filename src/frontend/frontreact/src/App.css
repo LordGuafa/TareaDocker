@@ -1,0 +1,192 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(back.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper{
+  width: 420px;
+  margin: auto 2rem;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+  color: #fff;
+  border-radius: .5rem;
+  padding: 30px 40px;
+}
+
+.wrapper h1 {
+  text-align: center;
+  font-size: 36px; 
+}
+
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background:transparent;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: .5rem;
+  font-size: 20px;
+}
+
+.input-box input::placeholder{
+  color: white;
+}
+
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content:end;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover{
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: .5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+.wrapper .register-link{
+  font-size: 15px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+/*MICUENTA*/
+
+.label-account {
+  margin: 10px 0px;
+  font-size: large;
+}
+
+.btn a {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: .5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+.cajaLabel{
+  width: 100%;
+  height: 100%;
+  padding: 11px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: .5rem;
+  font-size: 20px;
+}
